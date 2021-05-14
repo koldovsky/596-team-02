@@ -310,17 +310,16 @@
 
         <div class="testimonials_block">
 
-            <h2>Testimonials</h2>
+            <h2 class="testimonials_text">Testimonials</h2>
 
             <p class="text_under_testimonials">Nothing says better about the quality of our products as customer
                 reviews.
             </p>
 
-
-
             <div class="first_customer_review">
 
-                <img src="img/testemonials/blondewoman.webp" class="blondewoman" alt="blonde hair woman" />
+                <img src="img/testemonials/blondewoman.webp" width="130" height="130" class="blondewoman"
+                    alt="blonde hair woman" />
 
                 <h3 class="first_customer_name">Alice Peterson</h3>
 
@@ -335,11 +334,10 @@
 
             </div>
 
-            <br />
+            <div class="second_customer_review">
 
-            <div class="second_customer">
-
-                <img src="img/testemonials/manwithglasses.webp" alt="man with glasses and beard" />
+                <img src="img/testemonials/manwithglasses.webp" width="130" height="130"
+                    alt="man with glasses and beard" />
 
                 <h3 class="second_customer_name">Jeff Flipstone</h3>
 
@@ -353,11 +351,10 @@
 
             </div>
 
-            <br />
+            <div class="third_customer_review">
 
-            <div class="third_customer">
-
-                <img src="img/testemonials/youngblondewoman.webp" alt="young woman with blonde hair" />
+                <img src="img/testemonials/youngblondewoman.webp" width="130" height="130"
+                    alt="young woman with blonde hair" />
 
                 <h3 class="third_customer_name">Jessica Smith</h3>
 
@@ -373,85 +370,73 @@
 
         </div>
 
-
-        <br />
-
-
         <div class="faq_and_contact_block">
 
-            <p class="upper_faq">Have Any Questions? Call us 24/7</p>
+            <div class="contact-block">
 
-            <a href="tel:+1234-567-8900" class="phone_number_faq">+1 (234) 567 89 00</a>
+                <p class="upper_faq">Have Any Questions? Call us 24/7</p>
 
-            <h3 class="faq_news_update">Newsletter & Update</h3>
+                <a href="tel:+1234-567-8900" class="phone_number_faq">+1 (234) 567 89 00</a>
 
-            <p class="faq_text_form">Complete the form below, and we <br />will contact you as soon as possible</p>
+                <img src="img/faq-form/line.png" width="400" class="line-form" alt="line_separator" />
 
+                <h3 class="faq_news_update">Newsletter & Update</h3>
 
-            <form id="faq_form" action="https://formspree.io/f/mayaewbr" method="POST">
-
-                <div class="email_input_form">
-                    <input type="text" name="Email" placeholder="Email" />
-                </div>
-
-                <div class="submit_button">
-                    <button form="faq_form">Submit</button>
-                </div>
+                <p class="faq_text_form">Complete the form below, and we <br />will contact you as soon as possible</p>
 
 
-            </form>
+                <form id="faq_form" action="https://formspree.io/f/mayaewbr" method="POST">
 
-            <img src="img/faq-form/faq-vitamin.webp" width="800" height="500" alt="vitamin D3+K2" />
+                    <div class="email_input_form">
+                        <input type="text" name="Email" placeholder="     Email" class="email_input" />
+                    </div>
+
+                    <div>
+                        <button form="faq_form" class="submit_button">Submit</button>
+                    </div>
+
+
+                </form>
+            </div>
+            <img src="img/faq-form/faq-vitamin.webp" width="500" height="330" class="vitamins-img"
+                alt="vitamin D3+K2" />
 
         </div>
 
     </main>
 
-
-
-    <br />
-
-
-
     <footer>
 
-        <div class="logo_and_social_icons">
+        <div class="footer_grid_elements">
 
-            <img src="img/footer-img/good-habit-logo-footer.svg" width="800" height="500" alt="'Good Habit' logo" />
+            <div class="logo_and_social_icons">
 
-            <p>We sell high-quality vitamins <br />and dietary supplements.</p>
+                <div class="footer_logo">
+                    <img src="img/footer-img/good-habit-logo-footer.svg" width="272" alt="'Good Habit' logo" />
 
-            <div class="social_icons">
+                    <p class="footer_logo_text">We sell high-quality vitamins <br />and dietary supplements.</p>
+                </div>
 
-                <ul class="social_icons_list">
+                <div class="social_icons">
+                    <a href="https://www.facebook.com/"><img src="img/footer-img/facebook-logo.jpg" width="30"
+                            height="30" alt="facebook logo" class="facebook_logo" /></a>
 
-                    <li class="facebook_logo">
-                        <a href="https://www.facebook.com/"><img src="img/footer-img/facebook-logo.jpg" width="30"
-                                height="30" alt="facebook logo" /></a>
-                    </li>
 
-                    <li class="insta_logo">
-                        <a href="https://www.instagram.com/"><img src="img/footer-img/instagram-logo.jpg" width="30"
-                                height="30" alt="instagram logo" /></a>
-                    </li>
 
-                    <li class="youtube_logo">
-                        <a href="https://www.youtube.com/"><img src="img/footer-img/youtube-logo.jpg" width="30"
-                                height="30" alt="youtube logo" /></a>
-                    </li>
+                    <a href="https://www.instagram.com/"><img src="img/footer-img/instagram-logo.jpg" width="30"
+                            height="30" alt="instagram logo" class="instagram_logo" /></a>
 
-                    <li class="twitter_logo">
-                        <a href="https://twitter.com/"><img src="img/footer-img/twitter-logo.jpg" width="30" height="30"
-                                alt="twitter logo" /></a>
-                    </li>
 
-                </ul>
+
+                    <a href="https://www.youtube.com/"><img src="img/footer-img/youtube-logo.jpg" width="30" height="30"
+                            alt="youtube logo" class="youtube_logo" /></a>
+
+
+                    <a href="https://twitter.com/"><img src="img/footer-img/twitter-logo.jpg" width="30" height="30"
+                            alt="twitter logo" class="twitter_logo" /></a>
+                </div>
 
             </div>
-
-            <br />
-
-
 
             <div class="footer_nav">
 
@@ -459,15 +444,14 @@
 
                 <nav class="footer_nav_menu">
                     <ul>
-                        <li><a href="#">╶ Products</a></li>
-                        <li><a href="#">╶ About Us</a></li>
-                        <li><a href="#">╶ Best Deals</a></li>
-                        <li><a href="#">╶ Latest News</a></li>
+                        <li><a href="#" class="footer_nav_products">╶ Products</a></li>
+                        <li><a href="#" class="footer_nav_about_us">╶ About Us</a></li>
+                        <li><a href="#" class="footer_nav_best_deals">╶ Best Deals</a></li>
+                        <li><a href="#" class="footer_nav_latest_news">╶ Latest News</a></li>
                     </ul>
                 </nav>
 
             </div>
-
 
             <div class="quick_links_footer">
 
@@ -475,35 +459,38 @@
 
                 <nav class="quick_links_nav_menu">
                     <ul>
-                        <li><a href="#">╶ Shipping & Returns</a></li>
-                        <li><a href="#">╶ Privacy Policys</a></li>
-                        <li><a href="#">╶ Terms & Conditions</a></li>
-                        <li><a href="#">╶ Orders & Returns</a></li>
+                        <li><a href="#" class="quick_links_shipping">╶ Shipping & Returns</a></li>
+                        <li><a href="#" class="quick_links_privacy">╶ Privacy Policys</a></li>
+                        <li><a href="#" class="quick_links_terms">╶ Terms & Conditions</a></li>
+                        <li><a href="#" class="quick_links_orders">╶ Orders & Returns</a></li>
                     </ul>
                 </nav>
 
             </div>
-
 
             <div class="contacts_footer">
 
                 <h3 class="contacts_footer_text">Contacts</h3>
 
                 <p class="contacts_footer_phone_text">Phone: <a href="tel:+1234-567-8900"
-                        class="contacts_footer_phone_num">
+                        class="contacts_footer_phone_link">
                         +1(234) 567 89 00</a></p>
 
-                <p class="contacts_footer_email_text">Email: <a href="goodhabit@email.com">goodhabit@email.com</a></p>
+                <p class="contacts_footer_email_text">Email: <a href="goodhabit@email.com"
+                        class="contacts-footer-email-link">goodhabit@email.com</a></p>
 
-                <p class="contacts_footer_address_text">Adress: 170 S 1st St, Brooklyn,NY 11211, USA</p>
+                <p class="contacts_footer_address_word">Address:</p>
+                <p class="address_type">170 S 1st St, Brooklyn,NY 11211, USA</p>
 
             </div>
 
         </div>
 
-        <p class="copyright">&copy; Created by</p>
-        <p class="all_rights_reserved">All rights Reserved</p>
+        <div class="copyright_info">
 
+            <p class="copyright">&copy; Created by</p>
+            <p class="all_rights_reserved">All rights Reserved</p>
+        </div>
     </footer>
 </body>
 

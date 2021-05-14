@@ -21,7 +21,7 @@ button {
     margin: auto;
 }
 button:hover{
-    background-color: blue;
+    background-color:#4e72d0;
     transition: 200ms;
 }
 
@@ -153,6 +153,225 @@ button:hover{
 .text p{
     color: #9A9A9A;
     margin: 15px 0px 0px 0px;
+}
+
+/*Vlad*/
+
+a {
+    text-decoration: none;
+}
+
+.testimonials_text {
+    padding-top: 1300px;
+    color: #1e3647;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text_under_testimonials {
+    color: #9a9a9a;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.first_customer_review, .second_customer_review, .third_customer_review {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.faq_and_contact_block {
+    background-color: #f5f6fa;
+    height: 450px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper_faq {
+    color: #9a9a9a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone_number_faq {
+    color: #4e68d7;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.faq_news_update {
+    font-weight: normal;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.faq_text_form {
+    color: #9a9a9a;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.vitamins-img {
+    padding-top: 60px;
+}
+
+
+.email_input_form {
+    padding-bottom: 15px;
+    padding-top: 40px;
+    display: flex;
+    padding-left: 70px;
+    width: 360px;
+    height: 40px;
+    margin-left: -49px;
+}
+
+
+.email_input {
+    border-radius: 10px;
+    display: flex;
+    width: 370px;
+    height: 35px;
+}
+
+.email_input:focus {
+    outline: none;
+}
+
+.submit_button {
+    background-color: #ff5a00;
+    color: white;
+    display:flex;
+    height:40px;
+    width:365px;
+    justify-content:center;
+    align-items:center;
+    margin-left: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.contact-block {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 380px;
+}
+
+.social_icons {
+    display: flex;
+    
+}
+
+.facebook_logo, .instagram_logo, .youtube_logo {
+    padding-right: 10px;
+    padding-bottom: 80px;
+}
+
+.footer_grid_elements {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Future responive footer
+@media (max-width: 600px) {
+    .footer_grid_elements {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+*/
+
+.footer_nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+.quick_links_footer {
+    font-size: 20px;
+}
+
+.navigation_text_footer, .quick_links_text_footer, .contacts_footer_text {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.footer_nav_products, .footer_nav_about_us, .footer_nav_best_deals, .footer_nav_latest_news {
+    color: #1e3647;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.quick_links_shipping, .quick_links_privacy, .quick_links_terms, .quick_links_orders {
+    color: #1e3647;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.contacts_footer_phone_text, .contacts_footer_email_text, .contacts_footer_address_word {
+    color: #20c798;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.contacts_footer_phone_link, .contacts-footer-email-link {
+    color: #4e68d7;
+}
+
+.contacts_footer_phone_link:hover, .contacts-footer-email-link:hover {
+    color: #9a9a9a;
+}
+
+li {
+    list-style-type: none; 
+}
+   
+ul {
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+.navigation_text_footer, .quick_links_footer, .contacts_footer {
+       color: #4e72d0;
+
+}
+
+.address_type {
+    color: #9a9a9a;
+}
+
+
+
+.footer_logo_text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #9a9a9a;
+}
+
+.copyright_info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7fb;
 }
 
 
