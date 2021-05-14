@@ -26,13 +26,6 @@ button:hover{
 }
 
 /*Ruslan*/
-.products{
-
-}
-.products__product-list{
-
-
-}
 .products__product-list h2 {
     text-align: center;
     font-family: var(--font-family);
@@ -60,25 +53,52 @@ button:hover{
 .products__menu-link{
     display: flex;
     justify-content: center;
+    position: relative;
 
-
-
+}
+.products__menu-link::after{
+    content: '';
+    height: 2px;
+    color: black;
+    background-color: black;
+    opacity: 0.125;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }
 .products__menu-link a {
     text-decoration: none;
     color: #9A9A9A;
-    padding: 15px 20px;
+    padding: 15px 20px 1px 20px;
 }
 
-.products__menu{
-   
+.products__menu-link a::after{
+    content: '';
+    display: block;
+    height: 1px;
+    color: black;
+    background-color: #4e72d0;
+    margin: 13px 0px 0px 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    transform: scale(0);
 }
-.products__submenu{
+.products__menu-link a:focus::after {
+    transform: scale(1);
 
 }
+
+
+
+
 .products__item{
     display: flex;
     justify-content: space-around;
+    
 }
 .products__item-card{
     display: flex;
@@ -91,6 +111,10 @@ button:hover{
 .products__item-card img{
     width: 270px;
     height: 270px;
+}
+.products__item-card button:hover {
+    background-color:#4e72d0;
+    transition: 200ms;
 }
 .products__description{
     color: #223645;
@@ -120,29 +144,31 @@ button:hover{
 }
 
 
-.info{
-
-}
 .info__block-container{
-    height: 513px;
     width: 100%;
+    padding: 100px 0px;
 }
+
+
 .info__block-row{
     display: flex;
-    align-items: center;
-    justify-content: center;
-
+    height: 316px;
+    background-color: #F0F2FE;
 }
 .image{
-    height: auto;
-    width: 50%;
-
+    width: 100%;
+    height: 100%;
+    
+}
+.image img {
+    height: 100%;
+    width: 100%;
 }
 .text{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 50%;
-
-
+    background-color: rgb(240 242 254);
 }
 .text h2{
     font-family: var(--font-family);
@@ -153,7 +179,9 @@ button:hover{
 .text p{
     color: #9A9A9A;
     margin: 15px 0px 0px 0px;
+    padding: 0px 10px 0px 10px
 }
+
 
 /*Vlad*/
 
