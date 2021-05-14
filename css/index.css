@@ -29,9 +29,9 @@ button:hover{
     background-color:#4e72d0;
     transition: 200ms;
 }
-.logo {
+.heading .logo {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #4e68d7;
 }
      .heading nav a{
