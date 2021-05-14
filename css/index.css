@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+   
+
 body{
     width: 980px;
     margin: auto;
@@ -10,6 +14,7 @@ body{
 :root{
     --main-color: #223645;
     --font-family: "Lato", sans-serif;
+    --accent-color:  blue;
 }
 button {
     background-color: rgb(239 101 0);
@@ -24,7 +29,34 @@ button:hover{
     background-color:#4e72d0;
     transition: 200ms;
 }
-
+.logo {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+    color: #4e68d7;
+}
+     .heading nav a{
+    display: block;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: var(--main-color); 
+    
+    }
+     .heading nav a:hover {
+        font-weight: bold;
+    }
+    @media (min-width: 500px) {
+        .heading {
+            display: flex;
+        }
+        .heading nav {
+            display: flex;
+            flex: 1;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    
 /*Ruslan*/
 .products__product-list h2 {
     text-align: center;
