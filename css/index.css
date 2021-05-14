@@ -31,21 +31,22 @@ button:hover{
 }
 .heading .logo {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #4e68d7;
 }
-     .heading nav a{
+     .heading nav a {
     display: block;
+    font-family: var(--font-family);
     text-decoration:none;
     text-transform:uppercase;
-    font-family: 'Noto Sans KR', sans-serif;
     color: var(--main-color); 
     
     }
-     .heading nav a:hover {
-        font-weight: bold;
+    .heading nav a:hover {
+        font-weight:bold ;  
     }
-    @media (min-width: 500px) {
+    
+    @media (min-width: 980px) {
         .heading {
             display: flex;
         }
@@ -55,6 +56,38 @@ button:hover{
             justify-content: space-around;
             align-items: center;
         }
+            }
+    .banner article{
+        border: 1px solid var(--main-color);
+    }
+     .banner article{
+        background-position: center;
+        background-size: cover;
+        min-height: 400px;
+        font-family: var(--font-family); 
+        color: var(--main-color);
+        background-color: rgb(216, 229, 245);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner section{
+        border: 1px solid var(--main-color);
+    }
+    .banner section{
+        background-position: center;
+        background-size: cover;
+        min-height: 400px;
+        font-family: var(--font-family); 
+        color: var(--main-color);
+        background-color: rgb(244, 247, 225);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
     }
     
 /*Ruslan*/
