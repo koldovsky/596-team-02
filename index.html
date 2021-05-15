@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Good Habit</title>
     <link rel="icon" href="img/ds-icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
     <title>Good Habit</title>
 </head>
 
@@ -307,63 +309,51 @@
 
             <h2 class="testimonials_text">Testimonials</h2>
 
-            <p class="text_under_testimonials">Nothing says better about the quality of our products as customer
-                reviews.
+            <p class="text_under_testimonials">Nothing says better about the quality of our products as customer reviews.
             </p>
 
-            <div class="first_customer_review">
-
-                <img src="img/testemonials/blondewoman.webp" width="130" height="130" class="blondewoman"
-                    alt="blonde hair woman" />
-
-                <h3 class="first_customer_name">Alice Peterson</h3>
-
-                <p class="first_customer_text">
-                    "I suffer from diabetes and I need to <br />maintain my blood sugar regularly. My <br />therapist
-                    recommended one of the <br />supplements, which I bought at Good <br />Habit. After starting the
-                    course, I <br />immediately felt better. The supplement <br />really helps to maintain the sugar
-                    level and <br />prevents spikes."
-                </p>
-
-                <time datetime="2019-12-15 19:00" class="post_date_first_customer">December 15, 2019</time>
-
-            </div>
-
-            <div class="second_customer_review">
-
-                <img src="img/testemonials/manwithglasses.webp" width="130" height="130"
-                    alt="man with glasses and beard" />
-
-                <h3 class="second_customer_name">Jeff Flipstone</h3>
-
-                <p class="second_customer_text">
-                    "I have been taking vitamins from Good <br />Habit for the fifth year. I noticed that as <br />soon
-                    as I started taking these vitamins, my <br />immunity immediately improved. During <br />these 5
-                    years, I have not had a single <br />serious illness, even colds have become <br />extremely rare."
-                </p>
-
-                <time datetime="2020-05-28 12:00" class="post_date_second_customer">May 28, 2020</time>
-
-            </div>
-
-            <div class="third_customer_review">
-
-                <img src="img/testemonials/youngblondewoman.webp" width="130" height="130"
-                    alt="young woman with blonde hair" />
-
-                <h3 class="third_customer_name">Jessica Smith</h3>
-
-                <p class="third_customer_text">
-                    "I suffered from hair problems, it was <br />terribly fragile and brittle. No shampoos <br />helped,
-                    at most, they gave a temporary <br />effect. However, when I bought vitamins at <br />Good Habit, my
-                    problem was solved. Now I <br />have healthy and shining hair."
-                </p>
-
-                <time datetime="2020-10-18 14:00" class="post_date_third_customer">October 18, 2020</time>
-
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/testemonials/blondewoman.webp" class="d-block w-20 m-auto" id="first_customer_img" alt="Aged woman with blonde hair">
+                        <h3 class="first_customer_name">Alice Peterson</h3>
+                        <p class="first_customer_review">"I suffer from diabetes and I need to <br />maintain my blood sugar regularly. My <br />therapist recommended one of the <br />supplements, which I bought at Good <br />Habit. After starting the course, I <br />immediately felt
+                            better. The supplement <br />really helps to maintain the sugar level and <br />prevents spikes."
+                        </p>
+                        <span class="first_customer_date">December 15, 2019</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/testemonials/manwithglasses.webp" class="d-block w-20 m-auto" id="second_customer_img" alt="Adult man with beard and glasses">
+                        <h3 class="second_customer_name">Jeff Flipstone</h3>
+                        <p class="second_customer_review">"I have been taking vitamins from Good <br />Habit for the fifth year. I noticed that as <br />soon as I started taking these vitamins, my
+                            <br />immunity immediately improved. During
+                            <br />these 5 years, I have not had a single <br />serious illness, even colds have become
+                            <br />extremely rare."
+                        </p>
+                        <span class="second_customer_date">May 28, 2020</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/testemonials/youngblondewoman.webp" class="d-block w-20 m-auto" id="third_customer_img" alt="Young girl with blonde hair">
+                        <h3 class="third_customer_name">Jessica Smith</h3>
+                        <p class="third_customer_review">"I suffered from hair problems, it was <br />terribly fragile and brittle. No shampoos <br />helped, at most, they gave a temporary <br />effect. However, when I bought vitamins at <br />Good Habit, my problem was solved. Now I
+                            <br />have healthy and shining hair."
+                        </p>
+                        <span class="third_customer_date">October 18, 2020</span>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
         </div>
+
+        <hr class="line_under_testimonials" />
 
         <div class="faq_and_contact_block">
 
@@ -379,7 +369,6 @@
 
                 <p class="faq_text_form">Complete the form below, and we <br />will contact you as soon as possible</p>
 
-
                 <form id="faq_form" action="https://formspree.io/f/mayaewbr" method="POST">
 
                     <div class="email_input_form">
@@ -390,11 +379,9 @@
                         <button form="faq_form" class="submit_button">Submit</button>
                     </div>
 
-
                 </form>
             </div>
-            <img src="img/faq-form/faq-vitamin.webp" width="500" height="330" class="vitamins-img"
-                alt="vitamin D3+K2" />
+            <img src="img/faq-form/faq-vitamin.webp" width="500" height="370" class="vitamins-img" alt="vitamin D3+K2" />
 
         </div>
 
@@ -413,22 +400,13 @@
                 </div>
 
                 <div class="social_icons">
-                    <a href="https://www.facebook.com/"><img src="img/footer-img/facebook-logo.jpg" width="30"
-                            height="30" alt="facebook logo" class="facebook_logo" /></a>
+                    <a href="https://www.facebook.com/"><img src="img/footer-img/facebook-logo.jpg" width="30" height="30" alt="facebook logo" class="facebook_logo" /></a>
 
+                    <a href="https://www.instagram.com/"><img src="img/footer-img/instagram-logo.jpg" width="30" height="30" alt="instagram logo" class="instagram_logo" /></a>
 
+                    <a href="https://www.youtube.com/"><img src="img/footer-img/youtube-logo.jpg" width="30" height="30" alt="youtube logo" class="youtube_logo" /></a>
 
-                    <a href="https://www.instagram.com/"><img src="img/footer-img/instagram-logo.jpg" width="30"
-                            height="30" alt="instagram logo" class="instagram_logo" /></a>
-
-
-
-                    <a href="https://www.youtube.com/"><img src="img/footer-img/youtube-logo.jpg" width="30" height="30"
-                            alt="youtube logo" class="youtube_logo" /></a>
-
-
-                    <a href="https://twitter.com/"><img src="img/footer-img/twitter-logo.jpg" width="30" height="30"
-                            alt="twitter logo" class="twitter_logo" /></a>
+                    <a href="https://twitter.com/"><img src="img/footer-img/twitter-logo.jpg" width="30" height="30" alt="twitter logo" class="twitter_logo" /></a>
                 </div>
 
             </div>
@@ -467,15 +445,13 @@
 
                 <h3 class="contacts_footer_text">Contacts</h3>
 
-                <p class="contacts_footer_phone_text">Phone: <a href="tel:+1234-567-8900"
-                        class="contacts_footer_phone_link">
+                <p class="contacts_footer_phone_text">Phone: <a href="tel:+1234-567-8900" class="contacts_footer_phone_link">
                         +1(234) 567 89 00</a></p>
 
-                <p class="contacts_footer_email_text">Email: <a href="goodhabit@email.com"
-                        class="contacts-footer-email-link">goodhabit@email.com</a></p>
+                <p class="contacts_footer_email_text">Email: <a href="goodhabit@email.com" class="contacts-footer-email-link">goodhabit@email.com</a></p>
 
-                <p class="contacts_footer_address_word">Address:</p>
-                <p class="address_type">170 S 1st St, Brooklyn,NY 11211, USA</p>
+                <p class="contacts_footer_address_word">Address:<span class="address_type">&nbsp;170 S 1st St,
+                        Brooklyn,NY 11211, USA</span>
 
             </div>
 
@@ -487,6 +463,7 @@
             <p class="all_rights_reserved">All rights Reserved</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
