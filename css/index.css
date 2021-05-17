@@ -52,6 +52,8 @@ button:hover {
 }
 
 .heading .logo {
+    min-width: 180px;
+    max-width: 250px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 2rem;
     color: #4e68d7;
@@ -79,44 +81,11 @@ button:hover {
         justify-content: space-around;
         align-items: center;
     }
+/*Artur*/
+.advantages img{
+    max-height: 70px;
+    max-width: 70px;
 }
-
-.banner article {
-    border: 1px solid var(--main-color);
-}
-
-.banner article {
-    background-position: center;
-    background-size: cover;
-    min-height: 400px;
-    font-family: var(--font-family);
-    color: var(--main-color);
-    background-color: rgb(216, 229, 245);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.banner section {
-    border: 1px solid var(--main-color);
-}
-
-.banner section {
-    background-position: center;
-    background-size: cover;
-    min-height: 400px;
-    font-family: var(--font-family);
-    color: var(--main-color);
-    background-color: rgb(244, 247, 225);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
 
 /*Ruslan*/
 
