@@ -50,8 +50,8 @@ button:hover {
     background-color: #4e72d0;
     transition: 200ms;
 }
-
 .heading .logo {
+    margin: auto;
     min-width: 180px;
     max-width: 250px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -60,6 +60,7 @@ button:hover {
 }
 
 .heading nav a {
+    
     display: block;
     font-family: var(--font-family);
     text-decoration: none;
@@ -70,10 +71,37 @@ button:hover {
 .heading nav a:hover {
     font-weight: bold;
 }
-
+@media (min-width: 980px) {
+    .banner-one img {
+        max-height: 599px;
+        max-width: 472px;
+    }
+        
+    .banner-one {
+        background-color: rgb(245, 246, 250);
+        font-family: var(--font-family);
+        text-align: left;
+        justify-content: space-around;
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+}
+@media (min-width: 980px) {
+            
+    .banner-two {
+        min-width: 944px;
+        min-height: 544px;
+        background-image: url(../img/header-img/select-a-product.webp);
+        font-family: var(--font-family);
+        align-items: left;
+        justify-content: space-around;
+            }
+}
 @media (min-width: 980px) {
     .heading {
         display: flex;
+        margin: auto;
     }
     .heading nav {
         display: flex;
@@ -81,10 +109,23 @@ button:hover {
         justify-content: space-around;
         align-items: center;
     }
-/*Artur*/
-.advantages img{
-    max-height: 70px;
+ @media (min-width: 980px) {
+    .advantages {
+        display: flex; 
+        margin: auto;
+    }
+    .advantages article img{
     max-width: 70px;
+        max-height: 70px;
+    }
+    .advantages article {
+        background-color: ;
+        font-family: var(--font-family);
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 /*Ruslan*/
