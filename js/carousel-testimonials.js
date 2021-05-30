@@ -39,7 +39,9 @@ function prevSlide() {
     showCurrentSlide();
 }
 
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 10000);
 
 document.querySelector('.testimonials-carousel .slide-prev').addEventListener('click', prevSlide);
 document.querySelector('.testimonials-carousel .slide-next').addEventListener('click', nextSlide);
+
+showCurrentSlide();
