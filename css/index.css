@@ -50,6 +50,22 @@ button:hover {
     background-color: #4e72d0;
     transition: 200ms;
 }
+ 
+.bar {
+    padding: 10px;
+    background-color: #f5f6fa; 
+   
+}
+
+.bar label {
+    color: #4e72d0;
+    font-weight:500 ;
+}
+
+.bar span {
+    color: grey;
+    font-weight: 400;
+}
 
 .heading .logo {
     margin: auto;
