@@ -1,4 +1,4 @@
-const images = [
+const customerTestimonials = [
     `<img src="img/testimonials/blonde_woman.webp" class="first_customer_img"/>
     <h3 class="first_customer_name">Alice Peterson</h3>
     <p class="first_customer_review">"I suffer from diabetes and I need to <br />maintain my blood sugar regularly. My <br />therapist recommended one of the <br />supplements, which I bought at Good <br />Habit. After starting the course, I <br />immediately felt
@@ -24,18 +24,18 @@ let currentIdx = 0;
 
 function showCurrentSlide() {
     const itemContainer = document.querySelector('.testimonials-carousel .carousel-container');
-    itemContainer.innerHTML = images[currentIdx];
+    itemContainer.innerHTML = customerTestimonials[currentIdx];
 }
 
 function nextSlide() {
     currentIdx++;
-    if (currentIdx >= images.length) currentIdx = 0;
+    if (currentIdx >= customerTestimonials.length) currentIdx = 0;
     showCurrentSlide();
 }
 
 function prevSlide() {
     currentIdx--;
-    if (currentIdx <= 0) currentIdx = images.length - 1;
+    if (currentIdx <= 0) currentIdx = customerTestimonials.length - 1;
     showCurrentSlide();
 }
 
