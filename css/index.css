@@ -87,6 +87,9 @@ button:hover {
 .heading nav a {
   display: block;
   font-family: var(--font-family);
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--main-color);
@@ -141,9 +144,10 @@ button:hover {
     margin: auto;
   }
   .heading nav {
+    margin: 10px;
+    padding: auto;
     display: flex;
-    flex: 1;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
   }
 
