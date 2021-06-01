@@ -139,6 +139,39 @@ button:hover {
     align-items: left;
     justify-content: space-around;
   }
+  .banner-two {
+    background-color: rgb(245, 246, 250);
+    font-family: var(--font-family);
+    display:flex ; 
+    justify-content: flex-start;
+    width: 100%;
+    }
+.banner-two .text2{
+  padding: 25px;
+  margin: 15px;
+}
+    .banner-two .text2 label {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 500px;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+      color:var(--footer-nav-elements-color);
+      }
+      .banner-two .text2 span {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 500px;
+        font-family: sans-serif;
+        color: grey;
+        font-weight: 400;
+        font-size: 19px;
+        }
+        .banner-two .but2 {
+          display: flex;
+          justify-content: flex-start;
+                  }
   .heading {
     display: flex;
     margin: auto;
