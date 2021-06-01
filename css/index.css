@@ -5,11 +5,18 @@
   padding: 0;
 }
 
-body {
-  width: 980px;
+header {
+  width: 1280px;
   margin: auto;
 }
-
+main {
+  width: 1280px;
+  margin: auto;
+}
+footer {
+  width: 1280px;
+  margin: auto;
+}
 :root {
   --main-color: #223645;
   --font-family: "Lato", sans-serif;
@@ -89,7 +96,6 @@ button:hover {
   font-weight: bold;
 }
 
-@media (min-width: 980px) {
   .banner-one img {
     max-height: 599px;
     max-width: 472px;
@@ -97,15 +103,31 @@ button:hover {
   .banner-one {
     background-color: rgb(245, 246, 250);
     font-family: var(--font-family);
-    text-align: left;
+    display:flex ; 
     justify-content: space-around;
-    display: flex;
-    flex: 1;
-    align-items: center;
-  }
+    width: 100%;
+    }
+.banner-one div .text{
+  padding: 25px;
+  margin: 15px;
 }
 
-@media (min-width: 980px) {
+    .banner-one div label {
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+      color:var(--footer-nav-elements-color);
+      }
+      .banner-one div span {
+        font-family: sans-serif;
+        color: grey;
+        font-weight: 400;
+        font-size: 19px;
+        }
+        .banner-one div .but {
+          display: flex;
+          
+        }
   .banner-two {
     min-width: 944px;
     min-height: 544px;
@@ -114,9 +136,6 @@ button:hover {
     align-items: left;
     justify-content: space-around;
   }
-}
-
-@media (min-width: 980px) {
   .heading {
     display: flex;
     margin: auto;
@@ -127,8 +146,7 @@ button:hover {
     justify-content: space-around;
     align-items: center;
   }
-}
-@media (min-width: 980px) {
+
   .advantages {
     display: flex;
     margin: auto;
@@ -144,7 +162,6 @@ button:hover {
     justify-content: space-around;
     align-items: center;
   }
-}
 /*Ruslan*/
 /* product */
 .products__product-list h2 {
